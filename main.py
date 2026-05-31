@@ -30,7 +30,7 @@ def run_app():
             if choice == '6':
                 num = float(input("Enter number: "))
                 result = calc.square_root(num)
-                print(f"\n-> Result: √{num} = {result}")
+                print(f"Result: √{num} = {result}")
             else:
                 num1 = float(input("Enter first number: "))
                 num2 = float(input("Enter second number: "))
